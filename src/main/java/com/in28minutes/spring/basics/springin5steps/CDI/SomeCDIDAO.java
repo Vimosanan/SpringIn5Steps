@@ -5,4 +5,7 @@ import javax.inject.Named;
 @Named
 public class SomeCDIDAO {
 
+	public int[] getData() {
+		return new int[] { 2, 3, 4, 5 };
+	}
 }
